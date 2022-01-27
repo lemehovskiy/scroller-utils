@@ -1,3 +1,9 @@
+/**
+ *
+ * @remarks
+ * This method adjusts offset triggers in cases when element offset triggers can't reach the start or end position
+ *
+ */
 export default function getAdjustedTriggerOffset(
   elementOffset: {
     top: number;

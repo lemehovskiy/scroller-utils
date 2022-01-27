@@ -16,7 +16,8 @@
     },
     "plugins": [
         "prettier",
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "eslint-plugin-tsdoc"
     ],
     "rules": {
         "prettier/prettier": 1,
@@ -25,6 +26,7 @@
         "jsx-a11y/label-has-associated-control": 0,
         "jsx-a11y/no-noninteractive-element-interactions": 0,
         "no-eval": 0,
-        "func-names": 0
+        "func-names": 0,
+        "tsdoc/syntax": 1
     }
 }
