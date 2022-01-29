@@ -1,3 +1,10 @@
+/**
+ *
+ * @remarks
+ * This method returns the current progress value
+ *
+ */
+
 const getProgress = (
   scrollTop: number,
   windowHeight: number,

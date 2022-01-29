@@ -1,6 +1,13 @@
 import getConvertedTriggersToPx from './getConvertedTriggersToPx';
 import getAdjustedTriggerOffset from './getAdjustedTriggerOffset';
 
+/**
+ *
+ * @remarks
+ * This method returns element and scroll triggers offset
+ *
+ */
+
 const getTriggers = (
   scrollTriggerOffsetRaw: {
     start: number | string;

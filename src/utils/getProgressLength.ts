@@ -1,3 +1,10 @@
+/**
+ *
+ * @remarks
+ * This method returns the progress length in pixels
+ *
+ */
+
 const getProgressLength = (
   elementHeight: number,
   windowHeight: number,
