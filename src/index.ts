@@ -1,6 +1,6 @@
 import getAdjustedTriggerOffset from './utils/getAdjustedTriggerOffset';
 import getBodyHeight from './utils/getBodyHeight';
-import getConvertItemUnitToPx from './utils/getConvertItemUnitToPx';
+import getConvertedTriggerToPx from './utils/getConvertedTriggerToPx';
 import getConvertedTriggersToPx from './utils/getConvertedTriggersToPx';
 import getProgress from './utils/getProgress';
 import getProgressLength from './utils/getProgressLength';
@@ -12,7 +12,7 @@ import getWindowHeight from './utils/getWindowHeight';
 export {
   getAdjustedTriggerOffset,
   getBodyHeight,
-  getConvertItemUnitToPx,
+  getConvertedTriggerToPx,
   getConvertedTriggersToPx,
   getProgress,
   getProgressLength,

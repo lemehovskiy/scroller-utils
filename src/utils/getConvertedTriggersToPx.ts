@@ -1,8 +1,14 @@
-import getConvertItemUnitToPx from './getConvertItemUnitToPx';
+import getConvertItemUnitToPx from './getConvertedTriggerToPx';
 
 type TriggerType = string | number;
 type TriggerTypePx = number;
 
+/**
+ *
+ * @remarks
+ * This method convert array of input triggers to px values
+ *
+ */
 const getConvertedTriggersToPx = (
   triggers: TriggerType[],
   height: number

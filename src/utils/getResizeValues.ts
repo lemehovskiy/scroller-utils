@@ -1,6 +1,13 @@
 import getTriggers from './getTriggers';
 import getProgressLength from './getProgressLength';
 
+/**
+ *
+ * @remarks
+ * This method returns new values after resizing the window
+ *
+ */
+
 const getResizeValues = (
   scrollTop: number,
   windowHeight: number,
@@ -46,7 +53,7 @@ const getResizeValues = (
     elementTriggerOffsetBottom,
     scrollTriggerOffsetStart,
     scrollTriggerOffsetEnd,
-    progressLength: progressLength,
+    progressLength,
   };
 };
 
