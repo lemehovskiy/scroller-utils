@@ -3,3 +3,12 @@ webpack.config.js
 webpack.config.d.ts
 tsconfig.json
 /src
+.git
+.github
+.husky
+.eslintignore
+.eslintrc.json
+.prettierrc.json
+babel.config.js
+commitlint.config.js
+typedoc.json
