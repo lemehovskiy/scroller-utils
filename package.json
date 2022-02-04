@@ -19,7 +19,7 @@
     "fix": "npm run fix:prettier && npm run fix:eslint",
     "fix:eslint": "eslint src/ --ext .ts,.tsx --fix --max-warnings=0",
     "fix:prettier": "prettier 'src/**/*.{ts,tsx}' --write",
-    "postinstall": "husky install",
+    "prepare": "husky install",
     "typedoc": "typedoc --out docs src/index.ts"
   },
   "author": "lemehovskiy",
