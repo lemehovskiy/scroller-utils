@@ -5,6 +5,6 @@
  *
  */
 
-const getBodySize = (): number => document.body.clientHeight;
+const getBodySize = (): number => document.body.scrollHeight;
 
 export default getBodySize;
